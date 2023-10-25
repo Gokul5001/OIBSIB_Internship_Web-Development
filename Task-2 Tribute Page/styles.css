@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: "Times New Roman", Times, serif; /* Change the font family to Times New Roman */
+    background-color: rgba(48, 13, 13, 0.906);
+    color: rgb(254, 254, 254);
+    font-size:larger;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.689);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #e4e3e3;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 36px;
+    color: #e4e3e3;
+    margin: 10px 0;
+}
+
+/* Main content styles */
+#main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.689);
+    line-height: 2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 158, 158, 0.2);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Times New Roman", Times, serif; /* Change the font family to Times New Roman */
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+/* Footer styles */
+#footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.689);
+    color: #fff;
+    padding: 10px;
+}
+
+/* Link styles */
+a {
+    color: #0f49d0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
